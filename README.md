@@ -1,0 +1,2 @@
+# kgather
+一组对kubernetes集群进行批量信息收集的脚本，帮助在kubernetes集群渗透中快速获取有用信息。
