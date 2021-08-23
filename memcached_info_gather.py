@@ -42,7 +42,7 @@ if __name__ == '__main__':
     out_file = args.out
     screen = args.screen
     if out_file == '':
-        out_file = time.strftime("{ip}_{port}_%Y-%m-%d_%H:%M:%S_podinfo_out.txt", time.localtime()).format(ip=ip,port=str(port))
+        out_file = time.strftime("{ip}_{port}_%Y-%m-%d_%H-%M-%S_out.txt", time.localtime()).format(ip=ip,port=str(port))
 
     print('[+] memcached连接地址：',ip,port)
     # 请求超时
